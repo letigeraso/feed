@@ -1,0 +1,109 @@
+{
+ "id": "local.ryan.feed",
+ "version": "1.5.0",
+ "name": "Ryan Feed",
+ "description": "Personal recommendations built from my own Stremio watch history.",
+ "resources": [
+  "catalog"
+ ],
+ "types": [
+  "movie",
+  "series",
+  "all"
+ ],
+ "catalogs": [
+  {
+   "type": "all",
+   "id": "ryan-unfinished",
+   "name": "Pick Back Up"
+  },
+  {
+   "type": "movie",
+   "id": "ryan-foryou",
+   "name": "Movies You'll Love"
+  },
+  {
+   "type": "movie",
+   "id": "ryan-because",
+   "name": "Movies Like Movies You Loved"
+  },
+  {
+   "type": "series",
+   "id": "ryan-foryou",
+   "name": "TV Shows You'll Love"
+  },
+  {
+   "type": "series",
+   "id": "ryan-because",
+   "name": "TV Shows Like TV Shows You Loved"
+  },
+  {
+   "type": "movie",
+   "id": "ryan-fresh",
+   "name": "New Movies You'll Like"
+  },
+  {
+   "type": "series",
+   "id": "ryan-fresh",
+   "name": "New TV Shows You'll Like"
+  },
+  {
+   "type": "movie",
+   "id": "ryan-gems",
+   "name": "Movie Hidden Gems"
+  },
+  {
+   "type": "series",
+   "id": "ryan-gems",
+   "name": "TV Hidden Gems"
+  },
+  {
+   "type": "movie",
+   "id": "ryan-romps",
+   "name": "80s & 90s Movie Romps"
+  },
+  {
+   "type": "movie",
+   "id": "ryan-horror",
+   "name": "Good Horror Movies"
+  },
+  {
+   "type": "movie",
+   "id": "ryan-offbeat",
+   "name": "Offbeat & Dark Movies"
+  },
+  {
+   "type": "movie",
+   "id": "ryan-mystery",
+   "name": "Mystery Movies"
+  },
+  {
+   "type": "series",
+   "id": "ryan-mystery",
+   "name": "Mystery TV Shows"
+  },
+  {
+   "type": "series",
+   "id": "ryan-britcom",
+   "name": "Dark British TV Comedies"
+  },
+  {
+   "type": "series",
+   "id": "ryan-sitcoms",
+   "name": "Classic American TV Sitcoms"
+  },
+  {
+   "type": "all",
+   "id": "ryan-docs",
+   "name": "Best Quality Documentaries"
+  },
+  {
+   "type": "series",
+   "id": "ryan-brainrot",
+   "name": "Roger's Favorite Brain Rot"
+  }
+ ],
+ "behaviorHints": {
+  "configurable": false
+ }
+}
